@@ -1,0 +1,110 @@
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Segoe UI", sans-serif;
+        }
+
+        body {
+            position: relative;
+            background: url('1b.jpg') ;
+            background-size:cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .form{
+            position: relative;
+            background: #fff2e86a;
+            width: 100%;
+            max-width: 500px;
+            border-radius: 12px;
+            box-shadow: -3px 3px 10px -3px rgba(0, 0, 0, 0.2);
+            padding: 30px 30px;
+        }
+        .form h1 {
+            font-size: 40px;
+            text-align: center;
+            padding-bottom: 8px;
+            
+        }
+
+        .form form .error-text {
+            display: none;
+            color: red;
+            padding: 4px 6px;
+            text-align: center;
+            border-radius: 4px;
+            background:#f9d6d8;
+            border: 1px solid #965057;
+            margin-bottom: 8px;
+        }
+        .form .grid-details {
+            display: grid;
+            font-weight: 600;
+            padding-top: 5px;
+            
+        }
+        .form .grid-details .input:first-child {
+            margin-right: 8px;
+            width: 100%;
+        }
+        .form .grid-details .input:last-child {
+            margin-left: 8px;
+            width: 100%;    
+        }
+        .form form .input input {
+            height: 40px;
+            width: 100%;
+            font-size: 14px;
+            padding: 0 8px;
+            border-radius: 5px;
+            border-style: solid;
+            background-color: #f5f5f5;
+        }
+        .submit {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .form form .input input:focus,
+        .form form .input input:valid {
+            border: 2px solid #fc8019;
+            transition: 0.2s ease;
+            outline: none;
+        }
+
+        .form form input.btn{
+            height: 45px;
+            width: 100%;
+            border: none;
+            color: #fff;
+            background: #fc8019;
+            font-size: 17px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-bottom: 10px;
+            margin-top: -12px;
+        }
+        .form form input.btn:hover {
+            background: #e66801;
+            transition: 0.3s ease;
+        }
+        .form .link {
+            text-align: center;
+            margin-top: 10px 0;
+            font-size: 17px;
+        }
+        .form .link a {
+            color: #fc8019;
+            text-decoration: none;
+        }
+        .form .link a:hover {
+            color: #059ff3;
+            text-decoration: underline;
+            transition: 0.5s ease;
+        }
+    
